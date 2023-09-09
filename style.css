@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #18292a;
+  display: flex;
+  justify-content: center;
+}
+.card {
+  background: linear-gradient(
+    90deg,
+    hsla(173, 89%, 70%, 1) 0%,
+    hsla(196, 68%, 38%, 1) 100%
+  );
+  gap: 10px;
+  margin: 50px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 330px;
+
+  padding: 50px;
+  border-radius: 20px;
+}
+.sreach {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 10px;
+}
+.sreach input {
+  border: none;
+
+  margin-left: 20px;
+  text-decoration: none;
+}
+.sreach input:focus {
+  outline: none;
+}
+.sreach-bar {
+  background-color: #fff;
+  box-shadow: none;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  height: 50px;
+  border-radius: 50px;
+}
+.sreach-icon {
+  height: 50px;
+  width: 50px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.weather-img {
+  width: 150px;
+  background-image: url("images/clouds.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 150px;
+  justify-self: center;
+}
+.weather {
+  font-size: 2.2rem;
+  text-align: center;
+  margin: 0;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 330px;
+  margin-top: 50px;
+}
+.row h1 {
+  font-size: 2rem;
+}
+.box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.humidity-img {
+  width: 40px;
+  height: 40px;
+  background-position: center;
+  background-size: cover;
+  background-image: url("images/humidity.png");
+}
+.wind-img {
+  width: 40px;
+  height: 40px;
+  background-position: center;
+  background-size: cover;
+  background-image: url("images/wind.png");
+}
